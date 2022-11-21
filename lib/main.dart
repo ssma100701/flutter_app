@@ -30,7 +30,7 @@ class _SoundPlayerState extends State<SoundPlayer> {
   }
 
   List<Expanded> renderKey() {
-    var eps = <Expanded>[];
+    var expandeds = <Expanded>[];
     var colors = <Color>[
       Colors.red,
       Colors.orange,
@@ -55,9 +55,9 @@ class _SoundPlayerState extends State<SoundPlayer> {
           ),
         ),
       );
-      eps.add(e);
+      expandeds.add(e);
     }
-    return eps;
+    return expandeds;
   }
 
   @override
